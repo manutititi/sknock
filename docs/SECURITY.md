@@ -119,11 +119,6 @@ In practice, TOTP brute force is not a viable attack here.
 
 In v1, seeds are stored in plaintext in `/etc/sknock/users.toml` (0600, root only).
 
-Trade-off vs Anchor's encrypted vault:
-- Anchor encrypts seeds with AES-256-GCM using a master key (vault)
-- Sknock v1 skips this to avoid adding a key management dependency
-- Protection relies on file permissions (root access required to read)
-- Future v2 could add: `sknockd seal` to encrypt seeds with a passphrase
 
 ## What fwknop Does Differently
 
