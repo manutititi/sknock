@@ -1,0 +1,4 @@
+bin/
+knocks/
+*.log
+references
