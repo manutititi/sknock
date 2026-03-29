@@ -2,7 +2,7 @@
 
 ## What You Need
 
-- A Linux server with root access and `ufw` enabled
+- A Linux server with root access.
 - A workstation (Linux or macOS) to knock from
 - Go 1.21+ to compile (only needed once)
 
